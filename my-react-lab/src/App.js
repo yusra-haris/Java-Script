@@ -1,22 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import Greeting from './Components/greeting';
-import RollNum from './Components/header';
-import con from './Components/content';
-import Stddata from './Components/content';
+import React from 'react';
+import './App.css'; // Import global styles
+import Navbar from './Components/navbar';
+import LandingPage from './Components/landingpage';
+import Details from './Components/Form';
+import FooterDaraz from './Components/footer2';
 
 function App() {
-  return (
-    <div className="App">
-      
-    <RollNum/>
-     <h1>Testing... </h1> 
-     <Greeting/>
-     <Stddata/>
-    
-     
-    </div>
-  );
+return (
+<div>
+<Navbar />
+<LandingPage />
+<Details/>
+<FooterDaraz/>
+</div>
+);
 }
-
 export default App;

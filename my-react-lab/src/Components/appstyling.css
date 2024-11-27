@@ -1,1 +1,25 @@
+.stddata{
+    background-color: black;
+    text-align: center;
+    font-style: italic;
+    color: antiquewhite;
+    padding: 20px;
+}
 
+.rollnum{
+    background-color: antiquewhite;
+    color: rebeccapurple;
+    padding: 15px;
+}
+
+.greeting{
+    background-color: azure;
+    text-align: center;
+    font-style: normal;
+    padding: 30px;
+}
+.footerr{
+    text-align: end;
+    color: red;
+    font-size: larger;
+}

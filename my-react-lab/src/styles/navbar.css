@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    }
+    .navbar-logo {
+    height: 50px; /* Make the logo fit within the navbar height */
+    max-height: 50px; /* Ensure the image doesn't grow too large */
+    overflow: hidden;
+    }
+    .navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    }
+    .navbar-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-style: bold;
+    font-size: large;
+    }
+    .navbar-link:hover {
+    color: #61dafb;
+    }
