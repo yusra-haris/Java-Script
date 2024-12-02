@@ -1,6 +1,6 @@
 import './ProfileCardstyling.css';
 
-function ProfileCard(props) {
+function ProfileCard(props) {}
     const { name :personname, age :personage, occupation : personoccupation , location :personlocation } = props;
     return (
     <div>

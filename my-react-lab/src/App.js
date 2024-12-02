@@ -1,17 +1,11 @@
 import React from 'react';
 import './App.css'; // Import global styles
-import Navbar from './Components/navbar';
-import LandingPage from './Components/landingpage';
-import Details from './Components/Form';
-import FooterDaraz from './Components/footer2';
+import ProfileCard from './Components/ProfileCard';
 
 function App() {
 return (
 <div>
-<Navbar />
-<LandingPage />
-<Details/>
-<FooterDaraz/>
+<ProfileCard name = "Fahad"  age = {30} occupation = "Engineer"  location = "New York" />
 </div>
 );
 }
