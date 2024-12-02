@@ -1,22 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Greeting from './Components/greeting';
-import RollNum from './Components/header';
-import con from './Components/content';
-import Stddata from './Components/content';
+import React from 'react';
+import './App.css'; // Import global styles
+import ProfileCard from './Components/ProfileCard';
 
 function App() {
-  return (
-    <div className="App">
-      
-    <RollNum/>
-     <h1>Testing... </h1> 
-     <Greeting/>
-     <Stddata/>
-    
-     
-    </div>
-  );
+return (
+<div>
+<ProfileCard name = "Fahad"  age = {30} occupation = "Engineer"  location = "New York" />
+</div>
+);
 }
-
 export default App;
