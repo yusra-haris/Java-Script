@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css'; // Import global styles
-import ProfileCard from './Components/ProfileCard';
+import ProductCard from './Components/ProductCard';
 
 function App() {
 return (
-<div>
-<ProfileCard name = "Fahad"  age = {30} occupation = "Engineer"  location = "New York" />
+<div className='appbg'>
+<ProductCard prodtitle='Wireless headphones' description='Noise-cancelling, over-ear headphones' price={1999.99} imgurl='https://m.media-amazon.com/images/I/41jJycNOSmL._SL500_.jpg' />
 </div>
 );
 }
