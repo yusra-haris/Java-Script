@@ -1,7 +1,7 @@
 let name = "Yusra"
 function Greeting() {
     return (
-      <div className="App">
+      <div className="greeting">
        <h1> "Hello {name} ! Welcome to React!"</h1>
       </div>
     );
